@@ -75,6 +75,9 @@ def load_data(city, month, day):
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     df['End Time'] = pd.to_datetime(df['End Time'])
     
+    #Making a new minute column.
+    df['Minute'] = df['Start Time'].dt.minute
+
     #Making a new hour column.
     df['Hour'] = df['Start Time'].dt.hour
     
@@ -100,6 +103,7 @@ def load_data(city, month, day):
 
 
 def time_stats(df):
+    # Display some statistics
     """Displays statistics on the most frequent times of travel."""
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
