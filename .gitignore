@@ -1,3 +1,5 @@
 .github/**
 # The following files will not be tracked/updated by GIT
-bikesharedata.csv
+chicago.csv
+new_york_city.csv
+washington.csv
