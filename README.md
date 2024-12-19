@@ -15,3 +15,13 @@ The used files include: **bikeshare.py** , **README.MD** and **bikesharedata.csv
 ### Credits
 Udacity abd GitHub were 2 great sources that inspired my learning.
 
+### What to focus on
+The below things are where you can focus on:
+- Create new repo.
+- Add/Modify files to the repo.
+- Create new branches.
+- Make updates on branches.
+- Make multiple commits.
+- Push updates between branches.
+- Merge different commits.
+
